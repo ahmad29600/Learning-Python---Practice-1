@@ -138,3 +138,7 @@
 #     grade = "F"
 
 # print(f"Your obtained {total} marks. \nGrade is: {grade}")
+
+students_name = ["Ahmad Ghaffar", "Ali Ahsaan", "Ahmad Razzaq"]
+names = students_name.append("Zain Ahmad GHhazi")
+print(students_name)
