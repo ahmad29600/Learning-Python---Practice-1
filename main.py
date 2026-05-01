@@ -139,6 +139,29 @@
 
 # print(f"Your obtained {total} marks. \nGrade is: {grade}")
 
-students_name = ["Ahmad Ghaffar", "Ali Ahsaan", "Ahmad Razzaq"]
-names = students_name.append("Zain Ahmad GHhazi")
-print(students_name)
+
+
+# Kon Bane Ga Crore Pati
+
+prize = 0
+
+while True:
+    question1 = input("What is the capital of Pakistan?: ").lower()
+
+    if question1 == "islamabad":
+        prize += 1
+        print(f"You won {prize} crore.")
+
+        question2 = input("What is the first capital of Pakistan?: ").lower()
+
+        if question2 == "karachi":
+            prize += 1
+            print(f"You won {prize} crore.")
+        else:
+            print("Wrong answer!")
+            break
+    else:
+        print("Wrong answer!")
+        break
+
+    break  # stops after completing both questions
